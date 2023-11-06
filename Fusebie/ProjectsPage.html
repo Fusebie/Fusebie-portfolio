@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./Assets/stylesheets/ProjectsPageStyle.css">
+        <link rel="stylesheet" href="./Assets/stylesheets/navbar.css">
+        <title>Projects</title>
+    </head>
+    <body class="body">
+        <header>
+            <div class="navbar">
+                <div class="navbar-left">
+                    <div class="navbaritemA"><a class="navbar-item" href="index.html">Fusebie</a></div>
+                </div>
+                <div class="navbar-right">
+                    <div class="navbaritemB"><a class="navbar-item" href="ProjectsPage.html">projects</a></div>
+                    <div class="navbaritemC"><a class="navbar-item" href="Contact.html">Contact</a></div>
+                </div>
+            </div>
+        </header>
+
+        <h1 class="h1-a">Projects</h1>
+
+        <div class="h1-b-background-box">
+            <h1 class="h1-b">My Projects</h1>
+        </div>
+
+        <h1 class="h1-c">VazeNeon</h1>
+
+        <div class="project1-box">
+            <div class="image-slider-box">
+                <button class="image-slide-leftbtn" onclick="ChangeImagePrevious()"><img class="image-slide-left" src="./Assets/images/arrowIconLeft.png"></button>
+                <img id="useless-game-poster" src="./Assets/from my game/epic screenshot.png" alt="lol">
+                <button class="image-slide-rightbtn" onclick="ChangeImageNext()"><img class="image-slide-left" src="./Assets/images/arrowIconRight.png"></button>
+            </div>
+            
+            <h1 class="h1-about-proj1">About</h1>
+
+            <div class="useless-game-description-box">
+                <p class="p-useless-game-description">A First Person Shooter with parkour movement mechanics. It's heavily inspired by games like Halo and Karlson. 
+                    It's my first project that I intend to finish and release, and hopefully make better a sequel. I haven't been able to come up with a storyline for the campaign yet
+                    as currently my main focus is on fine tuning the mechanics, adding more features, making more enemy variants etc. I have a trello board for this project where I keep
+                    track of my progress, you can check it out using the link given below.
+                    <br>
+                    <br>
+                    I have released this game on itch.io, where you can download and test the game for yourself. I keep updating the itch page as I work on the game. 
+                </p> 
+
+                <a href="https://trello.com/b/95uPnNbr/vazeneon-singleplayer"><h2 id="h2-trelloBoard-link" >Check out the Trello board</h2></a>
+
+                <h1 class="h1-sysreqrmnts">System Requirements</h1>
+                <h2 class="h2-sysreqrmnts-item">- 64 bit OS</h2>
+                <h2 class="h2-sysreqrmnts-item">- Windows 7,8,10,11</h2>
+                            
+                <h1 class="h1-sysreqrmnts">Download the game on Itch.io</h1>
+                <iframe id="VazeNeonItchEmbed"frameborder="0" src="https://itch.io/embed/2066613?linkback=true&amp;bg_color=000000&amp;fg_color=b700e0&amp;link_color=5bd2fa&amp;border_color=ffffff" width="552" height="167"><a href="https://fusebie.itch.io/vazeneon">VazeNeon by Fusebie</a></iframe>
+            </div>
+        </div>
+        
+        <div id="project2-box">
+            <h1 class="h1-c">VazeNeon Multiplayer</h1>
+            <!-- <div class="image-slider-box">
+                <button class="image-slide-leftbtn" onclick="ChangeImagePrevious()"><img class="image-slide-left" src="./Assets/images/arrowIconLeft.png"></button>
+                <img id="useless-game-poster" src="./Assets/from my game/epic screenshot.png" alt="lol">
+                <button class="image-slide-rightbtn" onclick="ChangeImageNext()"><img class="image-slide-left" src="./Assets/images/arrowIconRight.png"></button>
+            </div> -->
+            <img class="VNM-poster" src="./Assets/images/image-4.png" alt="picture-of-friday">
+            
+            <h1 class="h1-about-proj1">About</h1>
+
+            <div class="useless-game-description-box">
+                <p class="p-useless-game-description">A seperate multiplayer project that currently only seems like a multiplayer version of my singleplayer game.
+                    I intend to make this game a more polished one than my singleplayer game. It's currently very early into development but I have released a playable version on itch.
+                    There's still a lot of work needed to be done. As usual, I'm keeping track of my 
+                    progress on a trello board that you can check out using the link below.
+                    <br>
+                    <br>
+                    I have released this game on itch.io, where you can download and test the game for yourself. I keep updating the itch page as I work on the game. 
+                </p> 
+
+                <a href="https://trello.com/b/fYJhMB61/vazeneon-multiplayer"><h2 id="h2-trelloBoard-link" >Check out the Trello board</h2></a>
+
+                <h1 class="h1-sysreqrmnts">System Requirements</h1>
+                <h2 class="h2-sysreqrmnts-item">- 64 bit OS</h2>
+                <h2 class="h2-sysreqrmnts-item">- Windows 7,8,10,11</h2>
+                            
+                <h1 class="h1-sysreqrmnts">Download the game on Itch.io</h1>
+                <iframe id="VazeNeonItchEmbed"frameborder="0" src="https://itch.io/embed/2256486?linkback=true&amp;bg_color=000000&amp;fg_color=810aff&amp;link_color=5bbafa&amp;border_color=ffffff" width="552" height="167"><a href="https://fusebie.itch.io/vazeneon-multiplayer">VazeNeon Multiplayer by Fusebie</a></iframe>
+            </div>
+        </div>
+    </body>
+    <script src="./Assets/scripts/ProjectsPageScript.js"></script>
+</html>

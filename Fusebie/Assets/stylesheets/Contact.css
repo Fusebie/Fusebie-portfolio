@@ -1,0 +1,46 @@
+/* body */
+.contactPage {
+    background-color:  rgb(20, 20, 20);
+}
+
+/* divs */
+.div-paragraph {
+    margin: auto;
+    width: 50%;
+}
+
+.sm-links {
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 220px;
+}
+/* headings */
+
+.h1-a {
+    font-size: 5rem;
+    color: rgb(118, 0, 209);
+    text-align: center;
+    font-family: monospace;
+}
+
+/* paragraphs */
+
+.contact-p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+/* images */
+.smlink-logo {
+    height: 50px;
+}
+
+#soundcloud-logo {
+    height: 58px;
+}
