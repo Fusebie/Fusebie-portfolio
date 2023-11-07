@@ -38,8 +38,6 @@
 } */
 
 .box-about {
-    border-radius: 25px;
-    width: 900px;
     margin-left: 20px;
 }
 #about2-box {
@@ -135,11 +133,16 @@
     color: white;
 }
 
+.p-about1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
 .p-about {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: white;
-    width: fit-content;
 }
 .i-have-no-idea-what-this-is {
     color: white;
